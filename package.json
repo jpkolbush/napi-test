@@ -1,0 +1,20 @@
+{
+  "name": "N-API-Test",
+  "version": "0.4.0",
+  "description": "A tester for the N-API conan package",
+  "repository": {
+    "type": "git",
+    "url": "todo"
+  },
+  "scripts": {
+    "build": "node-gyp configure build",
+    "electron-test": "electron-mocha test.js"
+  },
+  "author": "Keysight Technoligies",
+  "devDependencies": {
+    "electron": "2.0.0",
+    "electron-mocha": "^6.0.2",
+    "mocha": "^5.1.1",
+    "node-gyp": "^3.6.2"
+  }
+}
